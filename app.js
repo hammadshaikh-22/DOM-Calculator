@@ -49,10 +49,10 @@ output.value = ""
 // function result(){
 //     output.value = ans
 // }
-// if(!output.value.includes("+","-","/","X")){
-//     var n1 = +(output.value)
-//     var ans = n1 +1
-//     console.log(n1)
-// }
+if(!output.value.includes("+","-","/","X")){
+    var n1 = +(output.value)
+    var ans = n1 +1
+    console.log(n1)
+}
 
 
