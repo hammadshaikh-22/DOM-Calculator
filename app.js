@@ -40,15 +40,15 @@ output.value = ""
 // function prod(){
 //     output.value += "X"
 // }
-// function div(){
-//     output.value += "/"
-// }
-// function clear(){
-//     output.value = "0"
-// }
-// function result(){
-//     output.value = ans
-// }
+function div(){
+    output.value += "/"
+}
+function clear(){
+    output.value = "0"
+}
+function result(){
+    output.value = ans
+}
 if(!output.value.includes("+","-","/","X")){
     var n1 = +(output.value)
     var ans = n1 +1
