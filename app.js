@@ -1,21 +1,21 @@
 var seven = document.getElementById("seven")
 var output = document.getElementById("display")
 output.value = ""
-// function clickSeven(){
-//     output.value += "7"
-// }
-// function clickEight(){
-//     output.value += "8"
-// }
-// function clickNine(){
-//     output.value += "9"
-// }
-// function clickSix(){
-//     output.value += "6"
-// }
-// function clickFive(){
-//     output.value += "5"
-// }
+function clickSeven(){
+    output.value += "7"
+}
+function clickEight(){
+    output.value += "8"
+}
+function clickNine(){
+    output.value += "9"
+}
+function clickSix(){
+    output.value += "6"
+}
+function clickFive(){
+    output.value += "5"
+}
 function clickFour(){
     output.value += "4"
 }
