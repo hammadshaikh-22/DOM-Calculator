@@ -28,18 +28,18 @@ output.value = ""
 // function clickOne(){
 //     output.value += "1"
 // }
-// function clickZero(){
-//     output.value += "0"
-// }
-// function add(){
-//     output.value += "+"
-// }
-// function sub(){
-//     output.value += "-"
-// }
-// function prod(){
-//     output.value += "X"
-// }
+function clickZero(){
+    output.value += "0"
+}
+function add(){
+    output.value += "+"
+}
+function sub(){
+    output.value += "-"
+}
+function prod(){
+    output.value += "X"
+}
 function div(){
     output.value += "/"
 }
