@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainBody">
+        <div class="output">
+            <input type="text" readonly id="display">
+        </div>
+        <div class="row">
+            <button id="seven" onclick="clickSeven()">7</button>
+            <button id="eight" onclick="clickEight()">8</button>
+            <button id="nine" onclick="clickNine()">9</button>
+            <button id="divide" onclick="div()">/</button>
+        </div>
+        <div class="row">
+            <button id="seven" onclick="clickSix()" onclick="click">6</button>
+            <button id="eight" onclick="clickFive()">5</button>
+            <button id="nine" onclick="clickFour()">4</button>
+            <button id="divide" onclick="prod()">X</button>
+        </div>
+        <div class="row">
+            <button id="seven" onclick="clickThree()" onclick="click">3</button>
+            <button id="eight" onclick="clickTwo()">2</button>
+            <button id="nine" onclick="clickOne()">1</button>
+            <button id="divide" onclick="sub()">-</button>
+        </div>
+        <div class="row">
+            <button id="seven" onclick="clickZero()" onclick="click">0</button>
+            <button id="eight" onclick="clear()">C</button>
+            <button id="nine" onclick="result()">=</button>
+            <button id="divide" onclick="add()">+</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
